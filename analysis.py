@@ -5,18 +5,10 @@ import sys
 
 #these are essential, code will not execute without!
 
-"""
 consumer_key = ''
 consumer_secret = ''
 access_token = ''
 access_token_secret = ''
-"""
-
-consumer_key = 'YRl1xeLZl2bpazfrc30n9SzJo'
-consumer_secret = 'q2OCs5fvZt1pGVGJ3dhLkQJxnI1XAp8pFDUqbe0qGO1yenhZWU'
-access_token = '1161083351010369538-51QbJLs7e4b64mQVXzAfzQPUKB8fPt'
-access_token_secret = '2OWg7c4HQ9KQPNScppgcswDnYLAfEKBXqj01fcb72pVm9'
-
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
